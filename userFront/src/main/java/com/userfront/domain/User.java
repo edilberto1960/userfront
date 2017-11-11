@@ -24,7 +24,7 @@ import com.userfront.domain.security.UserRole;
 
 @Entity
 public class User implements UserDetails{
-	// some ocation we need investigate this @Id in some cases
+	/* some ocation we need investigate this @Id in some cases */
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "userId", nullable = false, updatable = false)
