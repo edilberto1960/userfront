@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-//Comment of Entity is test
+//Comment of Entity is test 
 @Entity
 public class Appointment {
 
